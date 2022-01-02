@@ -1,0 +1,30 @@
+{
+  "name": "single-jsx",
+  "version": "1.0.0",
+  "description": "<!--  * @Author: haorongzheng  * @Date: 2022-01-02 15:01:49  * @LastEditTime: 2022-01-02 15:06:38  * @LastEditors: haorongzheng  * @Description:   * @FilePath: /single-jsx/README.md  * 保佑代码永无bug --> ## 在脱离react的基础上单独使用jsx语法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf lib/* && rollup -w -c ./rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoheiweb/single-jsx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoheiweb/single-jsx/issues"
+  },
+  "homepage": "https://github.com/xiaoheiweb/single-jsx#readme",
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.2",
+    "rollup": "^2.62.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
